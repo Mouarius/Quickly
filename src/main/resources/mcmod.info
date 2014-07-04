@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Quickly",
+  "name": "Quickly",
+  "description": "This mod allows you to make some boring tasks quickly in minecraft",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Mouarius"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
