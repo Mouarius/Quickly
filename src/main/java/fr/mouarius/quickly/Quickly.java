@@ -8,6 +8,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import fr.mouarius.quickly.handler.ConfigurationHandler;
+import fr.mouarius.quickly.handler.RecipesHandler;
 import fr.mouarius.quickly.init.ModItems;
 import fr.mouarius.quickly.proxy.IProxy;
 import fr.mouarius.quickly.reference.Reference;
@@ -43,6 +44,7 @@ public class Quickly
     @Mod.EventHandler
     public static void init(FMLInitializationEvent event)
     {
+        RecipesHandler.initRecipes();
 
         LogHelper.info("Initialization Complete");
     }
