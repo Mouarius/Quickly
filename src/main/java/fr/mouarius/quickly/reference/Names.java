@@ -8,6 +8,6 @@ public class Names
     }
     public class Items
     {
-        public static final String QUICKLY_TAB_ITEM = "quickly_tab_item";
+        public static final String QUICKLY_TAB_ITEM = "quicker";
     }
 }

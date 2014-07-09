@@ -1,2 +1,5 @@
 # DIVERS #
 itemGroup.Quickly=Quickly
+
+# ITEMS #
+item.quickly:quicker.name=Quicker

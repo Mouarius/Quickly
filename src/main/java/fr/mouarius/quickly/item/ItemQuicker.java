@@ -2,11 +2,13 @@ package fr.mouarius.quickly.item;
 
 import fr.mouarius.quickly.reference.Names;
 
-public class ItemQuicklyTab extends ItemQuickly
+public class ItemQuicker extends ItemQuickly
 {
-    public ItemQuicklyTab()
+    public ItemQuicker()
     {
         this.setUnlocalizedName(Names.Items.QUICKLY_TAB_ITEM);
+        this.maxStackSize = 1;
+        this.canRepair= false;
     }
 
 }

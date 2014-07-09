@@ -15,7 +15,7 @@ public class ModCreativeTabs
         @SideOnly(Side.CLIENT)
         public Item getTabIconItem()
         {
-            return ModItems.item_quickly_tab;
+            return ModItems.quicker;
         }
     };
 }

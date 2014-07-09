@@ -1,18 +1,18 @@
 package fr.mouarius.quickly.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import fr.mouarius.quickly.item.ItemQuicklyTab;
+import fr.mouarius.quickly.item.ItemQuicker;
 import fr.mouarius.quickly.reference.Names;
 import fr.mouarius.quickly.util.LogHelper;
 import net.minecraft.item.Item;
 
 public class ModItems
 {
-    public static Item item_quickly_tab;
+    public static Item quicker;
 
     public static void initItems()
     {
-        item_quickly_tab = new ItemQuicklyTab();
+        quicker = new ItemQuicker();
 
         registerItems();
         LogHelper.info("Items loaded successfully");
@@ -20,6 +20,6 @@ public class ModItems
 
     protected static void registerItems()
     {
-        GameRegistry.registerItem(item_quickly_tab, Names.Items.QUICKLY_TAB_ITEM);
+        GameRegistry.registerItem(quicker, Names.Items.QUICKLY_TAB_ITEM);
     }
 }
